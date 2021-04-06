@@ -1,0 +1,4 @@
+#!/bin/bash
+
+remote=${2:-github.com}
+git clone git@$remote:$1.git

@@ -1,0 +1,36 @@
+[user]
+    name = Janek Thomas
+    email = janek.tho@gmail.com
+[github]
+    user = ja-thomas
+[bitbucket]
+    user = ja-thomas
+[alias]
+    gc = git clone
+    gs = git status
+    ga = git add
+    gco = git checkout
+    gpush = git push
+    gpull = git pull
+    gl = "git log --pretty=format:'%ad | %s%d [%an]' --graph --date=short"
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+    tool = meld
+[mergetool]
+    prompt = false
+[mergetool "meld"]
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    ui = auto
+    interactive = auto
+[push]
+	default = simple

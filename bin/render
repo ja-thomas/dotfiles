@@ -1,0 +1,19 @@
+#!/bin/bash
+
+case ${1,,} in
+*.rnw)
+  Rscript -e "knitr::knit2pdf('$1')"
+  ;;
+*.rmd)
+  Rscript -e "rmarkdown::render('$1')"
+  ;;
+*.tex)
+  latexmk -pdf $1 && latexmk -c $1
+  ;;
+*.r)
+  Rscript $1
+  ;;
+*)
+  echo "Unknown filetype"
+  ;;
+esac
