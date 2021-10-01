@@ -1,6 +1,5 @@
 alias R='clear && R --no-save --no-restore-data --quiet'
 alias P="clear && ipython3"
-alias pinstall="pip3 install --user --upgrade"
 alias open="xdg-open"
 alias ll="ls -la"
 

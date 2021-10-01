@@ -25,4 +25,7 @@
     ui = auto
     interactive = auto
 [push]
-	default = simple
+    default = simple
+[credential]
+    helper = cache
+
