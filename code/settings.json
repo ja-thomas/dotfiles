@@ -1,0 +1,29 @@
+{
+    "workbench.editor.untitled.hint": "hidden",
+    "r.bracketedPaste": true,
+    "r.rterm.linux": "/usr/bin/R",
+    "r.rterm.option": [
+        "--no-save",
+        "--no-restore",
+        "--quiet"
+    ],
+    "r.alwaysUseActiveTerminal": true,
+    "r.lsp.diagnostics": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.associations": {
+        "*.rnw": "latex",
+        "*.Rnw": "latex"
+    },
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "[r]": {
+        "editor.formatOnSave": false
+    },
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-h>": false
+    },
+    "security.workspace.trust.banner": "never",
+    "files.insertFinalNewline": true
+}
