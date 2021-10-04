@@ -8,6 +8,7 @@ mlr3learners
 mlr3filters
 mlr3fselect
 mlr3misc
+mlr-org/mlr3extralearners
 bbotk
 mlr3measures
 mlr3benchmark
