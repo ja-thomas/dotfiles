@@ -1,0 +1,22 @@
+## Uncomment to let rtcl update itself:
+rdatsci/rtcl
+bbotk
+mlr3data
+mlr3oml
+mlr3db
+mlr3learners
+mlr3filters
+mlr3fselect
+mlr3misc
+bbotk
+mlr3measures
+mlr3benchmark
+mlr3verse
+mlr3pipelines
+mlr3viz
+mlr3tuning
+mlr3hyperband
+paradox
+languageserver
+rmarkdown
+knitr

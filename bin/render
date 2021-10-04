@@ -1,4 +1,5 @@
 #!/bin/bash
+# Render file based on filetype
 
 case ${1,,} in
 *.rnw)

@@ -22,7 +22,8 @@
     },
     "vim.handleKeys": {
         "<C-f>": false,
-        "<C-h>": false
+        "<C-h>": false,
+        "<C-n>": false
     },
     "security.workspace.trust.banner": "never",
     "files.insertFinalNewline": true
