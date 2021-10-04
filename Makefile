@@ -13,7 +13,7 @@ upgrade:
 
 basics:
 	make upgrade
-	sudo apt -y install vim git tmux meld
+	sudo apt -y install vim git tmux meld htop
 
 chrome:
 	rm -f google-chrome-stable_current_amd64.deb
