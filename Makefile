@@ -96,4 +96,7 @@ powerlevel10:
 	wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
-
+zoom:
+	wget https://zoom.us/client/latest/zoom_amd64.deb
+	sudo apt install ./zoom_amd64.deb
+	rm zoom_amd64.deb
