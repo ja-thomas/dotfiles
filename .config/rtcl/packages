@@ -1,6 +1,10 @@
 ## Uncomment to let rtcl update itself:
 rdatsci/rtcl
-bbotk
+data.table
+languageserver
+rmarkdown
+knitr
+## mlr3verse
 mlr3data
 mlr3oml
 mlr3db
@@ -18,6 +22,26 @@ mlr3viz
 mlr3tuning
 mlr3hyperband
 paradox
-languageserver
-rmarkdown
-knitr
+## tidyverse
+tidyverse
+ggplot2
+dplyr
+tidyr
+readr
+purrr
+tibble
+stringr
+forcats
+DBI
+haven
+httr
+readxl
+rvest
+jsonlite
+xml2
+lubridate
+hms
+blob
+dbplyr
+magrittr
+glue

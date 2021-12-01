@@ -26,5 +26,7 @@
         "<C-n>": false
     },
     "security.workspace.trust.banner": "never",
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "window.zoomLevel": 1
 }
