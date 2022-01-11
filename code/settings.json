@@ -15,6 +15,8 @@
         "*.Rnw": "latex"
     },
     "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
     "editor.formatOnSave": true,
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "[r]": {
@@ -28,5 +30,6 @@
     "security.workspace.trust.banner": "never",
     "files.insertFinalNewline": true,
     "latex-workshop.latex.autoBuild.run": "never",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "python.linting.pylintEnabled": false
 }
