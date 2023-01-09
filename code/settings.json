@@ -17,19 +17,17 @@
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
-    "editor.formatOnSave": true,
-    "python.dataScience.sendSelectionToInteractiveWindow": true,
     "[r]": {
         "editor.formatOnSave": false
     },
-    "vim.handleKeys": {
-        "<C-f>": false,
-        "<C-h>": false,
-        "<C-n>": false
-    },
     "security.workspace.trust.banner": "never",
     "files.insertFinalNewline": true,
-    "latex-workshop.latex.autoBuild.run": "never",
     "window.zoomLevel": 1,
-    "python.linting.pylintEnabled": false
-}
+    "python.linting.pylintEnabled": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }

@@ -106,4 +106,8 @@ docker:
 	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 	apt-cache policy docker-ce
 	sudo apt install docker-ce
-	
+
+zotero:
+	curl -sL https://zotero.retorque.re/file/apt-package-archive/install.sh | sudo bash
+	sudo apt update
+	sudo apt install zotero
